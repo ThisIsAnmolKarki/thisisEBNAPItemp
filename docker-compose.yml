@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:12
+    environment:
+      - POSTGRES_DB=EBN
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=secret
+    ports:
+      - 5432:5432
+  metabase:
+    image: metabase/metabase
+    depends_on:
+      - postgres
+    ports:
+      - 4005:3000
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    environment:
+      ADMINER_DEFAULT_SERVER: postgres

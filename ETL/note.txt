@@ -1,0 +1,36 @@
+name -> name
+Category -> categories["title"]
+location -> location{"display_address":{}}
+operating_hours ->business_hours
+description -> alias
+contact details -> phone or display_phone
+verification_id -> -1 in beginning
+
+next database
+
+id pk
+business id fk
+image url
+attributes menu_url
+country
+city
+logitude and latidue -> x , y respec
+price
+rating
+
+next database
+
+open hours
+use same business id -> insert for all 7 days
+
+
+BusinessID	integer Auto Increment [nextval('"Business_BusinessID_seq"')]	
+Category	character varying(255)	
+Location	character varying(255)	
+OperatingHours	character varying(255)	
+Description	text NULL	
+Services	character varying(255) NULL	
+ContactDetails	character varying(255)	
+user_id	integer	
+createdAt	timestamptz	
+updatedAt	timestamptz

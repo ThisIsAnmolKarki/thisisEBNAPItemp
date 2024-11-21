@@ -1,0 +1,107 @@
+{
+    "alias": "carmelinas-boston-2",
+    "name": "Carmelina",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rxZBwIYFKwrn2U4676YmiQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/carmelinas-boston-2?adjust_creative=mvAzYa-1rxlOAVuG3zNW9g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=mvAzYa-1rxlOAVuG3zNW9g",
+    "review_count": 3874,
+    "categories": [
+        {
+            "alias": "italian",
+            "title": "Italian"
+        }
+    ],
+    "rating": 4.5,
+    "coordinates": {
+        "latitude": 42.36388,
+        "longitude": -71.05415
+    },
+    "transactions": [
+        "delivery",
+        "restaurant_reservation"
+    ],
+    "price": "$$$",
+    "location": {
+        "address1": "307 Hanover St",
+        "address2": "",
+        "address3": "",
+        "city": "Boston",
+        "zip_code": "02113",
+        "country": "US",
+        "state": "MA",
+        "display_address": [
+            "307 Hanover St",
+            "Boston, MA 02113"
+        ]
+    },
+    "phone": "+16177420020",
+    "display_phone": "(617) 742-0020",
+    "distance": 2272.117191835705,
+    "business_hours": [
+        {
+            "open": [
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 0
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 1
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 2
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 3
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 4
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 5
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1130",
+                    "end": "2200",
+                    "day": 6
+                }
+            ],
+            "hours_type": "REGULAR",
+            "is_open_now": true
+        }
+    ],
+    "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+    }
+}
+
+// {
+//     "name": "Automatic Seafood and Oysters", 
+//     "category": ["Seafood"], 
+//     "location": "2824 5th Ave S, Birmingham, AL 35233", 
+//     "operating_hours": [], 
+//     "description": "automatic-seafood-and-oysters-birmingham", 
+//     "contact_details": "+12055801600", 
+//     "verification_id": -1
+// }
+
